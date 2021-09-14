@@ -3,20 +3,12 @@ title: A Two-Stage Machine Learning Approach to Predict Heart Transplantation Su
   Probabilities over Time with a Monotonic Probability Constraint
 author:
 - Hamidreza Ahady Dolatsara^[Aubrun University, [hamid@auburn.edu](mailto:hamid@auburn.edu)]
-- Ying-Ju Tessa Chen^[University of Dayton, [ychen4@udayton.edu](mailto:ychen4@udayton.edu)]
-- Christy Evans^[Aubrun University, [cje0010@auburn.edu](mailto:cje0010@auburn.edu)]
-- Ashish Gupta^[Aubrun University, [azg0074@auburn.edu](mailto::azg0074@auburn.edu)]
-- Fadel M. Megahed^[Miami University, [fmegahed@miamioh.edu](mailto:fmegahed@miamioh.edu)]
+
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
-  html_document:
-    code_folding: hide
-    df_print: paged
-    number_sections: yes
-    toc: yes
-    toc_float: yes
-  word_document:
-    toc: yes
+ github_document:
+    toc: true
+
 ---
 
 
